@@ -7,7 +7,7 @@ class Actor < ActiveRecord::Base
   end 
   
   def list_roles 
-    [self.characters.name, self.characters.show_id.name].join(" - ")
+    #[self.characters.name, self.characters.show_id.name].join(" - ")
   end 
   
 end
